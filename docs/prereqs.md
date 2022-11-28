@@ -13,4 +13,12 @@ We need to install the Android emulator command line tools to use the `Android D
     2. Install Android SDK. You can find the command line tools [here](https://developer.android.com/studio).
     3. Install `platform-tools` which contains interfaces such as `adb` and `fastboot`. To install `platform-tools`, run `sdkmanager "platform-tools"` in the terminal.
 
+- For an Apple Mac with an Intel chip, do the following:
+
+    1. Install [Homebrew](https://brew.sh).
+    2. Run the following command in your terminal:
+    ```
+    brew install --cask android-platform-tools
+    ```
+
 - For a PC running Ubuntu, use [these instructions](https://docs.modalai.com/setup-adb/). Run the commands under `Host Computer Setup`.
